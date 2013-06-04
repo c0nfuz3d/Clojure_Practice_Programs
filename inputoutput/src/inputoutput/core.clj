@@ -1,6 +1,8 @@
 (ns inputoutput.core)
 
-(defn foo
-  "I don't do a whole lot."
+(defn greet
+  "says hello to a given person."
   [x]
-  (println x "Hello, World!"))
+  (println "Hello," x))
+
+(greet "James")
