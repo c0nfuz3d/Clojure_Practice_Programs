@@ -1,5 +1,3 @@
-(clojure.core/use 'clojure.core)
-
 ;a list of numbers
 (def odds (list 1 3 5))
 (def evens (list 2 4 6))

@@ -2,8 +2,6 @@
 (clojure.core/use 'clojure.core)
 ;apparently this is how you comment
 
-
-
 ;this is a comparison
 (< 4 5)
 
@@ -51,7 +49,7 @@
 ;structs
 (defstruct point :x :y)
 
-(def pointA (struct point 0 0))
+(def p (struct point 0 0))
 
 ;returns the sequence of elements with duplicates removed
 (distinct fruit)
