@@ -3,6 +3,7 @@
 (defstruct point :x :y)
 (def p (struct point 0 0))
 
+
 ;;The most popular way to make a class is to use a record. This is one without methods:
 (defrecord Rectangle [length width])
 
@@ -27,4 +28,3 @@
 (.width rect)
 (.area rect)
 (.perimeter rect)
-
